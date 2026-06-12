@@ -25,6 +25,7 @@ const Header = () => {
               <Login onClick={() => navi("/login")}>로그인</Login>
             </>
           )}
+          <NavLink onClick={() => navi("/boards")}>게시판</NavLink>
         </Nav>
       </Inner>
     </Bar>
